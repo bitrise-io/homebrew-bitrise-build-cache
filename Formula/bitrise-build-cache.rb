@@ -1,28 +1,28 @@
 class BitriseBuildCache < Formula
   desc "Bitrise Build Cache CLI — configure remote build cache for Gradle, Bazel, Xcode, and React Native"
   homepage "https://bitrise.io"
-  version "2.7.4"
+  version "2.7.4-alpha.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4/bitrise-build-cache_2.7.4_darwin_arm64.tar.gz"
-      sha256 "156c505e4ed24719eb1eb07afe165870de8358b5e0dee78b53878585acbe0d10"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4-alpha.1/bitrise-build-cache_2.7.4-alpha.1_darwin_arm64.tar.gz"
+      sha256 "481268557c94b2abef6d71220e087736b26085c8f9b94631f4b677fc8b3b4da5"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4/bitrise-build-cache_2.7.4_darwin_amd64.tar.gz"
-      sha256 "27122f73ae4cc51f7ef1cddb862076fecf73fab423d34664e3c88765ad65a75c"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4-alpha.1/bitrise-build-cache_2.7.4-alpha.1_darwin_amd64.tar.gz"
+      sha256 "a43dcb81a7f6707babe6fdf04d97fe94ebef0f816df810eb09d60a489da44208"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4/bitrise-build-cache_2.7.4_linux_arm64.tar.gz"
-      sha256 "3434bad916f4ae4cc0d33bec7ad564e111833de88e21fb60af25dbba78d5f786"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4-alpha.1/bitrise-build-cache_2.7.4-alpha.1_linux_arm64.tar.gz"
+      sha256 "7f9f496de41bfa3ad66434d9ce35052f8b7e6f3a526ca13e7347f2f9bb7dfe4e"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4/bitrise-build-cache_2.7.4_linux_amd64.tar.gz"
-      sha256 "5f13400de166ea19d40fe658246c1558e033fca17f006d63ba63b87e3b1321b9"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.7.4-alpha.1/bitrise-build-cache_2.7.4-alpha.1_linux_amd64.tar.gz"
+      sha256 "85edfe75acd73d75e8dc4f89cf8f533ab374f22c91f9d84d0a05b70135d23847"
     end
   end
 
