@@ -1,28 +1,28 @@
 class BitriseBuildCache < Formula
   desc "Bitrise Build Cache CLI — configure remote build cache for Gradle, Bazel, Xcode, and React Native"
   homepage "https://bitrise.io"
-  version "2.8.16"
+  version "3.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.8.16/bitrise-build-cache_2.8.16_darwin_arm64.tar.gz"
-      sha256 "e490167e3582576d7bf0e81c128f0740883b4ebd6657b20039744379356a7adf"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.0.0/bitrise-build-cache_3.0.0_darwin_arm64.tar.gz"
+      sha256 "e3ccc3ce6d63387c2aa514149548551f60a0cd2abc8e5c955555804eff208964"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.8.16/bitrise-build-cache_2.8.16_darwin_amd64.tar.gz"
-      sha256 "300fac271c7eb8d66c1e398cc7d7a75c8e347233c4e696fe91294bc2d39d27ab"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.0.0/bitrise-build-cache_3.0.0_darwin_amd64.tar.gz"
+      sha256 "492f7fd8feaee7791b57ba4f3dc5a059a8f61a5a714e6513a5044826d378f520"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.8.16/bitrise-build-cache_2.8.16_linux_arm64.tar.gz"
-      sha256 "70a2c5a7e312689ec799ad1afc471b8adabb3f0ed2b2465d0215b35a2a96c1ef"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.0.0/bitrise-build-cache_3.0.0_linux_arm64.tar.gz"
+      sha256 "d6ee550c86ad6bce3de5c564d74f5b2b9db36f486560830c5e9085e4bc316e25"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v2.8.16/bitrise-build-cache_2.8.16_linux_amd64.tar.gz"
-      sha256 "8fff1d7a22cade3ce4afb829b7ba967203e31106d6534f5fc9b69a1bd94fba25"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.0.0/bitrise-build-cache_3.0.0_linux_amd64.tar.gz"
+      sha256 "26c38c9ea136dde8ff40a9130408c628f24fdf1cbabf9a4a3901cd18babb167b"
     end
   end
 
