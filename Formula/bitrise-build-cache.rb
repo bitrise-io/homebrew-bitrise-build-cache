@@ -7,22 +7,22 @@ class BitriseBuildCache < Formula
   on_macos do
     on_arm do
       url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_darwin_arm64.tar.gz"
-      sha256 "3d8afd88ccf1210eabc19fe2e7a128cdfe909a24987e46274d5ccb1da9530632"
+      sha256 "6db60d2ded34ff14dbb19c4400e49e38d41a4c0c6e4b7dd3f7dc4cdf3d7c777a"
     end
     on_intel do
       url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_darwin_amd64.tar.gz"
-      sha256 "b74f6dae38b40f3068fa3eb07f7be8e9cdff2065f83b1d2a1df51903952a8f27"
+      sha256 "2720315730ba1c9d8c0d38887559e0e0e97c6f7b2674c790448756ca4baedc5c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_linux_arm64.tar.gz"
-      sha256 "b1853c2a9f3ab3e70882d06ba6b86a40b7545a50d1e60e93c15093138987c146"
+      sha256 "19cd640463f1444ef06966a5f7e998353bd93443a9e47aee075f87daac3fa2a5"
     end
     on_intel do
       url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_linux_amd64.tar.gz"
-      sha256 "9859de8f3a3c4506df6f7889e19580f797179b9bf7a5a0f04a655b3ad3506a7a"
+      sha256 "5dab8a06daf168fd28665d142534fdcbfd80b256a0933e2c4f2300eef3b1239a"
     end
   end
 
