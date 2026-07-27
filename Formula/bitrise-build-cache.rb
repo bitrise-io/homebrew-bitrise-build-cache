@@ -1,28 +1,28 @@
 class BitriseBuildCache < Formula
   desc "Bitrise Build Cache CLI — configure remote build cache for Gradle, Bazel, Xcode, and React Native"
   homepage "https://bitrise.io"
-  version "3.2.0"
+  version "3.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.0/bitrise-build-cache_3.2.0_darwin_arm64.tar.gz"
-      sha256 "3815c9684a216f56805353a0f9df94dfe6b2cb99a020810f90440679f80cd654"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_darwin_arm64.tar.gz"
+      sha256 "3d8afd88ccf1210eabc19fe2e7a128cdfe909a24987e46274d5ccb1da9530632"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.0/bitrise-build-cache_3.2.0_darwin_amd64.tar.gz"
-      sha256 "baa28f2833e22363188464d7090820b2bd7e6906a403f35da436c7037ebfb984"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_darwin_amd64.tar.gz"
+      sha256 "b74f6dae38b40f3068fa3eb07f7be8e9cdff2065f83b1d2a1df51903952a8f27"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.0/bitrise-build-cache_3.2.0_linux_arm64.tar.gz"
-      sha256 "c4672cda4261504c43b990e99c46bedf5f75be5083d80d59aed7f2f0ac9a538c"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_linux_arm64.tar.gz"
+      sha256 "b1853c2a9f3ab3e70882d06ba6b86a40b7545a50d1e60e93c15093138987c146"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.0/bitrise-build-cache_3.2.0_linux_amd64.tar.gz"
-      sha256 "7a9bebf6736390bb5bb710ea0339670b7a2fdb7a70e25d87f46b6bec89c6b41c"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.2.1/bitrise-build-cache_3.2.1_linux_amd64.tar.gz"
+      sha256 "9859de8f3a3c4506df6f7889e19580f797179b9bf7a5a0f04a655b3ad3506a7a"
     end
   end
 
