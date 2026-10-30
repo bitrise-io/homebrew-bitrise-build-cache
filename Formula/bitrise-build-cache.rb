@@ -1,28 +1,28 @@
 class BitriseBuildCache < Formula
   desc "Bitrise Build Cache CLI — configure remote build cache for Gradle, Bazel, Xcode, and React Native"
   homepage "https://bitrise.io"
-  version "3.18.0"
+  version "3.19.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.18.0/bitrise-build-cache_3.18.0_darwin_arm64.tar.gz"
-      sha256 "7c9aa21f002207c38b3bac0db6c94b3f95c480c0eb00a58bcc3a1db359829e15"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.19.0/bitrise-build-cache_3.19.0_darwin_arm64.tar.gz"
+      sha256 "5a3e41b4c8da90c6f41c01c936e4bdbcf3628389b474358aa2f5c63bd7ca2637"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.18.0/bitrise-build-cache_3.18.0_darwin_amd64.tar.gz"
-      sha256 "93aae9917bad8f4945db2f8932d602c0c56945409740cb124292974e51bc720f"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.19.0/bitrise-build-cache_3.19.0_darwin_amd64.tar.gz"
+      sha256 "22377af537a245c4198a39b7aa57ed83a57878fee3d2ab9c3f856b2b8ed27086"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.18.0/bitrise-build-cache_3.18.0_linux_arm64.tar.gz"
-      sha256 "cce938fe8b1e26629b89390f2a3aee8604b7c528b4a7a52831aefe3f4f5cbe3e"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.19.0/bitrise-build-cache_3.19.0_linux_arm64.tar.gz"
+      sha256 "66d89bbf7c40d7281f444527f52fa0ee450ff6cae6e798269fa3d2ebdab3f7d5"
     end
     on_intel do
-      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.18.0/bitrise-build-cache_3.18.0_linux_amd64.tar.gz"
-      sha256 "5fa7ccf84d928ee54fcc5f0ae6b563082ab11908cc4705800592e56a2a5e75a5"
+      url "https://github.com/bitrise-io/bitrise-build-cache-cli/releases/download/v3.19.0/bitrise-build-cache_3.19.0_linux_amd64.tar.gz"
+      sha256 "6a7aff1610b2c02224bf64e4eb9956c4f95e77fffdd02a36868ff935bb0a62d5"
     end
   end
 
